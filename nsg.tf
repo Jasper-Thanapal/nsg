@@ -39,7 +39,7 @@ resource "azurerm_network_security_group" "myNSG" {
   }
 }
 
-output "security_rule" {
-  value = azurerm_network_security_group.myNSG.security_rule
+output "id" {
+  value = azurerm_network_security_group.myNSG.id
 
 }
